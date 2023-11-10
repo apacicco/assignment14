@@ -1,0 +1,25 @@
+body {
+    background-color: rosybrown;
+}
+
+
+.columns {
+    display: flex;
+}
+
+#jewel-details {
+    border: dotted;
+    margin-left: 200px;
+}
+
+#store {
+    margin-right: 100px;
+}
+
+#jewel-boxes input{
+    display: block;
+}
+
+#jewel-details {
+    width: 50%;
+}
