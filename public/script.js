@@ -80,8 +80,11 @@ const showJewels = async () =>{
             const details = document.getElementById("jewel-details");
             details.innerHTML = "";
             const h5 = document.createElement("h5");
+            const p = document.createElement("p");
             details.append(h5);
+            details.append(p);
             h5.innerHTML = jewel.description;
+            p.innerHTML = "Materials: " + jewel.materials;
 
         }
     });

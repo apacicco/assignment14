@@ -9,17 +9,47 @@ body {
 
 #jewel-details {
     border: dotted;
-    margin-left: 200px;
+    margin-left: 20px;
+    width: 72%;
 }
 
 #store {
-    margin-right: 100px;
+    border: solid plum;
+    padding-left: 27px;
+    padding-right: 161px;
+}
+
+#store a{
+    text-decoration: none;
+    color: black;
+}
+
+#store a:hover{
+    text-decoration: none;
+    color: rgb(206, 67, 67);
 }
 
 #jewel-boxes input{
     display: block;
 }
 
-#jewel-details {
-    width: 50%;
+
+
+#adding-section {
+    margin-top: 16px;
+    padding-left: 10%;
+    padding-top: 10px;
+    border: dotted;
+    width: 25%;
+    margin-left: 36%;
+}
+
+#add-jewelry-link {
+    text-decoration: none;
+    color: black;
+}
+
+#add-jewelry-link:hover {
+    text-decoration: none;
+    color: rgb(206, 67, 67);
 }
